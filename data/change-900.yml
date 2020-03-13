@@ -1,0 +1,10 @@
+# File name: change-<issue_number>.yml
+issue: 900
+# Type of change: [ Added, Changed, Fixed, Removed ]
+type: Fixed
+description: Enable submit button when editing existing rule
+model:
+  - CCServer
+  - VE6021
+  - VE6025
+milestone: 5.1.0

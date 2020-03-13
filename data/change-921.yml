@@ -1,0 +1,8 @@
+# File name: change-<issue_number>.yml
+issue: 921
+# Type of change: [ Added, Changed, Fixed, Removed, Undocumented ]
+type: Fixed
+description: Limited users of the CAP Source Editor could change the source type but could not test the CAP URL.
+model:
+  - VE6025
+milestone: 5.0.1

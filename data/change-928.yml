@@ -1,0 +1,9 @@
+# File name: change-<issue_number>.yml
+issue: 928
+type: Fixed
+description: Validate the Schedule ID when user submitting new Control Schedule event
+model:
+  - CCServer
+  - VE6021
+  - VE6025
+milestone: 5.0.1

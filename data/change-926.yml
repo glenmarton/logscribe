@@ -1,0 +1,9 @@
+issue: 926
+type: Changed
+description: Users are told not to use Windows certificates in the Security panel when installing a new SSL certificate.
+model:
+  - CCServer
+  - VE6021
+  - VE6023
+  - VE6025
+milestone: 5.0.0-rc.12

@@ -1,0 +1,8 @@
+issue: 930
+type: Fixed
+description: Fix problems with recreating a deleted playlist in Quick Page
+model:
+  - CCServer
+  - VE6021
+  - VE6025
+milestone: 5.0.1

@@ -1,0 +1,10 @@
+issue: 939
+type: Fixed
+description: HA breaks if additional setup changes are made after HA in enabled. Primary will always be the ucarp master if it is online.
+model:
+  - CCServer
+  - VE6021
+  - VE6023
+  - VE6024
+  - VE6025
+milestone: 5.0.0-rc.12

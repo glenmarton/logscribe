@@ -1,0 +1,8 @@
+issue: 940
+type: Fixed
+description: Handle Send Text for TTS text
+model:
+  - CCServer
+  - VE6021
+  - VE6025
+milestone: 5.0.1

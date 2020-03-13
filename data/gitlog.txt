@@ -1,0 +1,118 @@
+994a584a Remove 5.1.0 issues from CHANGELOG.md into change-X.yml
+0b9aa30e Update versions to follow Semantic Versioning
+2412f7f4 Remove line numbers from CHANGELOG.md in preperation of yml files
+8a16c0e0 Initial import of yaml2changelog.py
+3064b8b9 Merge branch '939-settings-change-breaks-ha-2' into 'master'
+e77d73a7 Do not restart network on HA pair on setup change.
+dfec060b DOCS - update environment documentation
+5b5286ed Merge branch '926-ssl-certs-must-be-apache' into 'master'
+c6d11ce3 Add Changelog Entry
+e47dec33 Add Windows cert warning to React.
+a5d472c8 Merge branch '887-backup-restore-breaks-user-table' into 'master'
+c898328e Added change log .yml file
+41bd191b Do role conversion if backup db version < 1082
+9b2467c0 Copy db-1082.sql into a separate script
+a6a03866 Merge branch '568-per-user-groups' into 'master'
+ba92d30c Some cleanup
+64dc299d Add GetGroups & SetGroups functions.
+e514554c Change to use roles instead of users
+6d9f436d Switch meaning of group_users table
+17f1e8a3 Use group_users join table in getting groups
+de1dc1b1 Add functions to add & remove groups for a user
+db6f4111 Create and populate group_users join table
+ce6b2aeb Merge branch '939-settings-change-breaks-ha' into 'master'
+d8c2fecc HA secondary shouldn't break after a setup change.
+6fd3bcc1 HA primary shouldn't break after a setup change.
+8987dcb2 BUILD: update .gitlab-ci.yml to expire upgrades
+efdee6b8 Merge branch '940-qp-send-tts-text-crash' into 'master'
+269efc49 Restore code that had been removed
+c379f58b Add CHANGELOG entry
+ddf99387 Handle Send Text for TTS text
+003d352a Merge branch '931-limited-user-update-calendar-start-date' into 'master'
+5ef08519 Add changelog for issue 931
+e7cd0dc5 Allow limited user changing calendar start date
+8af2b169 Merge branch '935-Limited-User-Can-Delete-CAP-Alerts' into 'master'
+a820d488 fix code to access CAP Alerts Viewer
+b54a4ada changelog entry
+2469979b disable tbar items when limited user
+e1295154 Merge branch '921-cap-source-error-lim-user' into 'master'
+83e8b0c8 Added a change log entry
+f59221bf Make 'Test URL' button usable for limited users
+1961f993 Disable "Type" field for limited users
+033515e5 Merge branch '936-stop-limited-user-create-playlist-via-quickpage' into 'master'
+56c98147 Add changelog for issue 936
+3ca7aa06 Limited user shouldn't be able to create playlist via quick page
+34c5b823 Merge branch '933-hide-create-new-graphic-for-limited-user' into 'master'
+e74dd39e Add changelog for issue 933
+68b63136 Limited user shouldn't be able to create new graphic
+f8a6eae0 Merge branch '932-Limited-Privileges-Group-Code-Editor-Crash' into 'master'
+8f9522b6 changelog entry
+783cae4e prevent limited user from changing group code name
+96c3d731 Merge branch '929-replace-graphic-image-crash' into 'master'
+a8619528 Add CHANGELOG entry
+276cb00b Error msg intead of crash when no file selected
+ed033832 Merge branch '930-qp-recreate-pl' into 'master'
+80f35e0f Add CHANGELOG entry
+2bf16a1e 'UPSERT' instead of INSERT is various places
+ff16b9c4 Merge branch '934-idempotent-killproc_fast' into 'master'
+70d47a73 Make killproc_fast a hotfix.
+08127021 Merge branch '823-refresh-quickpage-text-message' into 'master'
+55828e02 Add changelog for issue 823
+fe5ff4d0 Sync the text_message table with the front end
+936517ce Merge branch '793-trim-tab-name-if-too-long' into 'master'
+18d0b949 Add changelog for #793
+a307c60f Test the URL tab window title length
+2ae2e363 Merge branch '741-replace_openntp' into 'master'
+e881f27e Protect variables with quotes
+7dd22ab4 add vecap fix for ntp_server
+b67a3c08 add 6024 to file
+c6ebd014 fix code so ntp_enabled works correctly
+b5ffa128 make sure server doesn't have iburst
+4bafaa95 remove references to pool_flag which is no longer used
+442bc152 use ntp.conf instead of ntpd.conf in vecap
+e5aceb16 fix saving ntps
+c78de36c insert the nyp values
+a42a942c Update vipsched code to use update_ntp_by_db.sh
+60a6a4df Added tests to verify use of update_ntp_by_db.sh
+6cf9ea40 Update vecap code to use update_ntp.sh
+8637dba1 Consolodate update_ntp.sh & vecap_update_ntp.sh
+7fb1f533 Prepare tests for consolodation of update_ntp.sh & vecap_update_ntp.sh
+cc438f93 Remove C code used to write /etc/ntpd.conf
+8fe36808 Stop C code from writing /etc/ntpd.conf
+ac371215 Remove ntp_pool_flags from php
+33c4c73f Remove ntp_pool_flags from javascript
+e55d4a2b Fix mixed indentation in web clock code
+efc61913 Add entry in CHANGELOG/ about replacing OpenNtp
+770e4c61 Refactor vecap_update_ntp.sh to work with ntp RPM
+6da90841 Quite noise from popup_test.sh
+02b5a46d Add verification tests for ntp configuration
+17f5cfd4 Add mock of ntpdate
+5e0f8660 Update service mock to act more like the real thing
+642c3c30 Install ntp RPM durring upgrade
+15e958d2 Verify ntp RPM installs
+ffa4d015 Update ntp config filename from openntp to ntp
+21a2dfe2 Refactored update_ntp.sh for testing
+d6687548 Install ntp RPM
+d56543ae Installing ntp RPM special case; install seperately
+5ca740db Add ntp.i686.rpm
+b68eb9e9 Add ntp.x86_64.rpm
+90ab1bb7 DOCS - gitlab maintenance
+37b37de1 Merge branch '928-validate-schedule-id' into 'master'
+48f0aeee Add changelog for issue 928
+b1b3cbdb When create control schedule event we check schedule id
+1bf44cd3 Merge branch '920-parallel-playlist-cant-be-deleted' into 'master'
+9eb50dcc Add changelog for issue 920
+437d3e52 Call delete2 function with correct args
+160d80e5 Merge branch '901-no-delay-after-pre-tone' into 'master'
+e447feef Add Changelog yaml file
+24d1289c Remove page_delay after qp pre-tone
+779a8262 Merge branch '707-vecap-gui-filters-error-unauthorized' into 'master'
+fa2dded4 Don't bubble up unauthorized to the user.
+7e56d16b Merge branch '925-no-php-encoding' into 'master'
+0cd0a4ed Remove PHP encoding.
+377dfac6 Merge branch '824-qp-sends-wrong-text' into 'master'
+91738fd1 Add Changelog file
+b35de527 Don't treat TTS as new text message
+c3970200 Merge branch '875-ackknowledge-broken-graphic-nodes' into 'master'
+95868836 Add changelog for issue 875
+0dcf4d22 Refresh the map when a playlist is remvoed. Warn user the impact of delete

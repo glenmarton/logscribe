@@ -1,0 +1,10 @@
+# File name: change-<issue_number>.yml
+issue: 901
+# Type of change: [ Added, Changed, Fixed, Removed ]
+type: Fixed
+description: Remove page delay after Quick Page pre-tone
+model:
+  - CCServer
+  - VE6021
+  - VE6025
+milestone: 5.0.1

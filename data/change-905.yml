@@ -1,0 +1,10 @@
+---
+issue: 905
+type: Added
+description: New name inflection editor.
+model:
+  - CCServer
+  - VE6021
+  - VE6023
+  - VE6025
+milestone: 5.0.0-rc.11

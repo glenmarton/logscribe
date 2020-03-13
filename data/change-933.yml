@@ -1,0 +1,9 @@
+issue: 933
+type: Fixed
+description: Made the Create New Graphic menu hidden from users with limited privilege.
+model:
+  - CCServer
+  - VE6021
+  - VE6023
+  - VE6025
+milestone: 5.0.1

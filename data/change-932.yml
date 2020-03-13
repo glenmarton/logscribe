@@ -1,0 +1,8 @@
+issue: 932
+type: Fixed
+description: Limited Privileges Group Code Editor Crash.
+model:
+  - CCServer
+  - VE6021
+  - VE6025
+milestone: 5.0.1

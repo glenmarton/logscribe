@@ -1,0 +1,8 @@
+issue: 902
+type: Fixed
+description: Remove page delay after Slow Page pre-tone
+model:
+  - CCServer
+  - VE6021
+  - VE6025
+milestone: 5.0.0-rc.12

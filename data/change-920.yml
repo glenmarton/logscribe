@@ -1,0 +1,10 @@
+# File name: change-<issue_number>.yml
+issue: 920
+# Type of change: [ Added, Changed, Fixed, Removed, Undocumented ]
+type: Fixed
+description: Undocumented
+model:
+  - CCServer
+  - VE6021
+  - VE6025
+milestone: 5.0.1

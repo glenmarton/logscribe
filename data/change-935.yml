@@ -1,0 +1,6 @@
+issue: 935
+type: Fixed
+description: 6025 Limited User Can Delete CAP Alerts
+model:
+   - VE6025
+milestone: 5.0.1

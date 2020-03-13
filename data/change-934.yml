@@ -1,0 +1,9 @@
+issue: 934
+type: Fixed
+description: Repeated upgrades would eventually begin to slow down init scripts.
+model:
+  - CCServer
+  - VE6021
+  - VE6023
+  - VE6025
+milestone: 5.0.1

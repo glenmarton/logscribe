@@ -1,0 +1,10 @@
+issue: 939
+type: Undocumented
+description: Don't restart the network on setup change to an HA server.
+model:
+  - CCServer
+  - VE6021
+  - VE6023
+  - VE6024
+  - VE6025
+milestone: 5.0.0-rc.12

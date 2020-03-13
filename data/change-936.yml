@@ -1,0 +1,9 @@
+issue: 936
+type: Fixed
+description: A limited (Quick Page and/or Play List) privilege user is not intended to create Play Lists
+model:
+  - CCServer
+  - VE6021
+  - VE6023
+  - VE6025
+milestone: 5.0.1

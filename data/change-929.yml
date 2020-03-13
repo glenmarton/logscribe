@@ -1,0 +1,9 @@
+# File name: change-<issue_number>.yml
+issue: 929
+type: Fixed
+description: Crash when submitting Graphic image without choosing a file
+model:
+  - CCServer
+  - VE6021
+  - VE6025
+milestone: 5.0.1

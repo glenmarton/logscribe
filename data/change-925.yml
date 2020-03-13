@@ -1,0 +1,9 @@
+issue: 925
+type: Fixed
+description: Assorted php-fpm crashes.
+model:
+  - CCServer
+  - VE6021
+  - VE6023
+  - VE6025
+milestone: 5.0.0-rc.12
