@@ -1,3 +1,3 @@
-# Changelog Updater
+# Log Scribe
 
-Changelog updater is resposible for updating the CHANGELOG.md with changes associated with specified MILESTONE.
+_Logscribe_ is resposible for updating CHANGELOG.md with changes associated with specified MILESTONE.
