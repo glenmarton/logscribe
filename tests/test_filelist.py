@@ -73,7 +73,7 @@ class TestMergedbranch(unittest.TestCase):
         'this_file_should_be_excluded.txt', 'minichange.md', 'template.yml', \
         'test_CHANGELOG.md', 'change-939-mr749.yml'
     ]
+    actual = self.file_list.array()
 
-    actual = self.file_list.to_str()
-
-    self.assertEqual(actual, str(expect))
+    for i in range(len(actual)):
+      self.assertEqual(actual[i], expect[i])
