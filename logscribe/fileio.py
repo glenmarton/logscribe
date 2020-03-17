@@ -2,10 +2,12 @@ import yaml
 
 
 def read_file(fname):
+    contents = []
     with open(fname, "r") as _file:
-        contents = _file.read()
-    data = contents.split("\n")
-    return remove_blank_entry_at_end(data)
+        for line in _file:
+            if line != '\n':
+                contents.append(line.strip('\n'))
+    return contents
 
 
 def read_yaml_file(fn):
@@ -17,9 +19,3 @@ def read_yaml_file(fn):
         except yaml.YAMLError as exec:
             print("Exception: ")
             print(exec)
-
-
-def remove_blank_entry_at_end(data):
-    if data[-1] == "":
-        del data[-1]
-    return data
