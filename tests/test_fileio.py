@@ -1,6 +1,8 @@
 import unittest
 import sys
+
 from logscribe.eprint import eprint
+from logscribe.fileio import read_file
 from logscribe.fileio import read_yaml_file
 
 class TestFileio(unittest.TestCase):
@@ -10,4 +12,10 @@ class TestFileio(unittest.TestCase):
     contents = read_yaml_file(fname)
     actual = contents.keys()
     expect = "dict_keys(['issue', 'type', 'description', 'model', 'milestone'])"
+    self.assertEqual(str(actual), str(expect))
+
+  def test_read_conf(self):
+    fname = './data/conftest.conf'
+    actual = read_file(fname)
+    expect = ['YAML_PATH=./yaml_dir', "CHANGELOG='test_path/test_CHANGELOG.md'", 'a']
     self.assertEqual(str(actual), str(expect))
