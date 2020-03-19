@@ -11,9 +11,9 @@ class Conf:
     def read(self, fname):
         contents = read_file(fname)
         for line in contents:
-            array = line.split("=")
-            if array:
-                self.append(array[0], array[1].strip("'"))
+            pair = line.split("=")
+            if(len(pair) >= 2):
+                self.append(pair[0], pair[1].strip("'"))
 
     def get_dictionary(self):
         return self.dictionary
