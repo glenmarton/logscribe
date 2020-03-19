@@ -14,6 +14,10 @@ class TestFileio(unittest.TestCase):
     expect = "dict_keys(['issue', 'type', 'description', 'model', 'milestone'])"
     self.assertEqual(str(actual), str(expect))
 
+  def test_read_file_without_file(self):
+    fname = 'not_a_file.conf'
+    with self.assertRaises(FileNotFoundError): read_file(fname)
+
   def test_read_conf(self):
     fname = './data/conftest.conf'
     actual = read_file(fname)
