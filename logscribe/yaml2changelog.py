@@ -50,10 +50,5 @@ class Yaml2Changelog:
 
     def _build_merge_order(self):
         merged = MergedBranch()
-        try:
-            merged.set_testing(True)
-        except KeyError:
-            merged.set_testing(False)
-
         merged.set_changelog(self.conf["CHANGELOG"])
         return merged.issues()
