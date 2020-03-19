@@ -1,11 +1,13 @@
 import sys
 
-from logscribe.process_argv import process_argv
+from logscribe.cli_argv import CmdLineArgv
+from logscribe.configurator import configure
 from logscribe.add_milestone2changelog import add_milestone_to_changelog
 
 
 def main():
-    configuration = process_argv(sys.argv)
+    argv = CmdLineArgv()
+    configuration = configure(argv.conf_file(), argv.milestone())
     add_milestone_to_changelog(configuration)
 
 
