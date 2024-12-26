@@ -1,5 +1,3 @@
-import yaml
-
 
 def read_file(fname):
     contents = []
