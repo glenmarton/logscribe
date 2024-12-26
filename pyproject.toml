@@ -21,9 +21,9 @@ classifiers = [
 ]
 urls = {homepage = "http://gitlab.valcom.com/glen/logscribe.git"}
 
-[project.optional-dependencies]
-# Add your optional dependencies here
-dev = []
+
+[project.dependencies]
+PyYAML = "*"
 
 [project.scripts]
 logscribe = "logscribe.__main__:main"
