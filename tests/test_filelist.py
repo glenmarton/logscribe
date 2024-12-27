@@ -69,9 +69,10 @@ class TestMergedbranch(unittest.TestCase):
         'change-926.yml', 'change-928.yml', 'change-930.yml', 'change-931.yml',\
         'change-933.yml', 'change-935.yml', 'change-937.yml', 'change-939.yml',\
         'change-932.yml', 'change-934.yml', 'change-936.yml', 'change-938.yml',\
-        'change-940.yml', 'logscribe.conf', 'conftest.conf', 'gitlog.txt', \
-        'this_file_should_be_excluded.txt', 'minichange.md', 'template.yml', \
-        'test_CHANGELOG.md', 'change-939-mr749.yml'
+        'change-940.yml', 'test_CHANGELOG.md', 'conftest.conf', 'minichange.md', \
+        'gitlog.txt', 'change-939-mr749.yml', 'logscribe.conf', \
+        'this_file_should_be_excluded.txt', 'template.yml'
+        
     ]
     actual = self.file_list.array()
 

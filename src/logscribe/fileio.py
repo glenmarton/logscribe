@@ -1,6 +1,5 @@
 import yaml
 
-
 def read_file(fname):
     contents = []
     with open(fname, "r") as _file:
